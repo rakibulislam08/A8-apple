@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import apples from '../../Asssets/apples.png';
+import Marquee from 'react-fast-marquee';
 
 const Banner = () => {
     return (
@@ -16,6 +17,9 @@ const Banner = () => {
                         <button className="btn bg-black text-white">Browse Now</button>
                     </div>
                 </div>
+            </div>
+            <div className='p-5 bg-rose-300 text-2xl'>
+                <Marquee>New Arrivals:  Apple Iteams | Weekly Feature: healthy Food | Join the Community...</Marquee>
             </div>
         </div>
     );

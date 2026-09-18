@@ -2,8 +2,8 @@ import React from 'react';
 
 const AllApples = () => {
     return (
-        <div>
-            
+        <div className='container mx-auto'>
+            category
         </div>
     );
 };
