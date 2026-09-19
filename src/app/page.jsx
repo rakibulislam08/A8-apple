@@ -1,11 +1,11 @@
 
 
-import Banner from "./home/Banner";
-import TopApples from "./home/TopApples";
+import Banner from "../components/shared/Banner";
+import TopApples from "../components/shared/TopApples";
 
 
 
-export default async function Home() {
+export default function Home() {
 
   return (
     <div>
