@@ -1,123 +1,124 @@
-
-    [
-        {
-            "id": "apple_001",
-            "title": "Red Delicious",
-            "description": "Sweet and juicy red apple with a classic crisp texture",
-            "image": "/images/apples/apple_001.jpg",
-            "category": "red-apple",
-            "price": 2.99,
-            "currency": "USD",
-            "dimensions": "7x7 cm",
-            "material": "Fresh Apple",
-            "inStock": true
-        },
-        {
-            "id": "apple_002",
-            "title": "Granny Smith",
-            "description": "Crisp green apple with a refreshing and tangy flavor",
-            "image": "/images/apples/apple_002.jpg",
-            "category": "green-apple",
-            "price": 2.49,
-            "currency": "USD",
-            "dimensions": "7x7 cm",
-            "material": "Fresh Apple",
-            "inStock": true
-        },
-        {
-            "id": "apple_003",
-            "title": "Gala Apple",
-            "description": "Mildly sweet apple with a crisp bite and aromatic flavor",
-            "image": "/images/apples/apple_003.jpg",
-            "category": "sweet-apple",
-            "price": 3.29,
-            "currency": "USD",
-            "dimensions": "7x7 cm",
-            "material": "Fresh Apple",
-            "inStock": true
-        },
-        {
-            "id": "apple_004",
-            "title": "Fuji Apple",
-            "description": "Extra-crisp apple with a juicy texture and naturally sweet taste",
-            "image": "/images/apples/apple_004.jpg",
-            "category": "sweet-apple",
-            "price": 3.49,
-            "currency": "USD",
-            "dimensions": "8x8 cm",
-            "material": "Fresh Apple",
-            "inStock": true
-        },
-        {
-            "id": "apple_005",
-            "title": "Honeycrisp",
-            "description": "Premium crunchy apple known for its sweet and juicy flavor",
-            "image": "/images/apples/apple_005.jpg",
-            "category": "premium-apple",
-            "price": 4.99,
-            "currency": "USD",
-            "dimensions": "8x8 cm",
-            "material": "Fresh Apple",
-            "inStock": true
-        },
-        {
-            "id": "apple_006",
-            "title": "Pink Lady",
-            "description": "Beautiful pink-red apple with a balanced sweet and tart taste",
-            "image": "/images/apples/apple_006.jpg",
-            "category": "pink-apple",
-            "price": 4.29,
-            "currency": "USD",
-            "dimensions": "7x7 cm",
-            "material": "Fresh Apple",
-            "inStock": true
-        },
-        {
-            "id": "apple_007",
-            "title": "Golden Delicious",
-            "description": "Golden yellow apple with a soft sweetness and smooth texture",
-            "image": "/images/apples/apple_007.jpg",
-            "category": "yellow-apple",
-            "price": 3.19,
-            "currency": "USD",
-            "dimensions": "7x7 cm",
-            "material": "Fresh Apple",
-            "inStock": true
-        },
-        {
-            "id": "apple_008",
-            "title": "Ambrosia Apple",
-            "description": "Naturally sweet apple with a crisp texture and delicate aroma",
-            "image": "/images/apples/apple_008.jpg",
-            "category": "premium-apple",
-            "price": 4.59,
-            "currency": "USD",
-            "dimensions": "8x8 cm",
-            "material": "Fresh Apple",
-            "inStock": true
-        },
-        {
-            "id": "apple_009",
-            "title": "Jazz Apple",
-            "description": "Crunchy apple with a vibrant flavor combining sweet and tangy notes",
-            "image": "/images/apples/apple_009.jpg",
-            "category": "crisp-apple",
-            "price": 4.19,
-            "currency": "USD",
-            "dimensions": "7x7 cm",
-            "material": "Fresh Apple",
-            "inStock": true
-        },
-        {
-            "id": "apple_010",
-            "title": "Envy Apple",
-            "description": "Premium red apple with a crisp bite and rich sweet flavor",
-            "image": "/images/apples/apple_010.jpg",
-            "category": "premium-apple",
-            "price": 5.49,
-            "currency": "USD",
-            "dimensions": "8x8 cm",
-            "material": "Fresh Apple",
-            "inStock": false
-        }
-    ]
+{
+    "products": [
+    {
+        "id": "apple_001",
+        "title": "Red Delicious",
+        "description": "Sweet and juicy red apple with a classic crisp texture",
+        "image": "/images/apples/apple_001.jpg",
+        "category": "red-apple",
+        "price": 2.99,
+        "currency": "USD",
+        "dimensions": "7x7 cm",
+        "material": "Fresh Apple",
+        "inStock": true
+    },
+    {
+        "id": "apple_002",
+        "title": "Granny Smith",
+        "description": "Crisp green apple with a refreshing and tangy flavor",
+        "image": "/images/apples/apple_002.jpg",
+        "category": "green-apple",
+        "price": 2.49,
+        "currency": "USD",
+        "dimensions": "7x7 cm",
+        "material": "Fresh Apple",
+        "inStock": true
+    },
+    {
+        "id": "apple_003",
+        "title": "Gala Apple",
+        "description": "Mildly sweet apple with a crisp bite and aromatic flavor",
+        "image": "/images/apples/apple_003.jpg",
+        "category": "sweet-apple",
+        "price": 3.29,
+        "currency": "USD",
+        "dimensions": "7x7 cm",
+        "material": "Fresh Apple",
+        "inStock": true
+    },
+    {
+        "id": "apple_004",
+        "title": "Fuji Apple",
+        "description": "Extra-crisp apple with a juicy texture and naturally sweet taste",
+        "image": "/images/apples/apple_004.jpg",
+        "category": "sweet-apple",
+        "price": 3.49,
+        "currency": "USD",
+        "dimensions": "8x8 cm",
+        "material": "Fresh Apple",
+        "inStock": true
+    },
+    {
+        "id": "apple_005",
+        "title": "Honeycrisp",
+        "description": "Premium crunchy apple known for its sweet and juicy flavor",
+        "image": "/images/apples/apple_005.jpg",
+        "category": "premium-apple",
+        "price": 4.99,
+        "currency": "USD",
+        "dimensions": "8x8 cm",
+        "material": "Fresh Apple",
+        "inStock": true
+    },
+    {
+        "id": "apple_006",
+        "title": "Pink Lady",
+        "description": "Beautiful pink-red apple with a balanced sweet and tart taste",
+        "image": "/images/apples/apple_006.jpg",
+        "category": "pink-apple",
+        "price": 4.29,
+        "currency": "USD",
+        "dimensions": "7x7 cm",
+        "material": "Fresh Apple",
+        "inStock": true
+    },
+    {
+        "id": "apple_007",
+        "title": "Golden Delicious",
+        "description": "Golden yellow apple with a soft sweetness and smooth texture",
+        "image": "/images/apples/apple_007.jpg",
+        "category": "yellow-apple",
+        "price": 3.19,
+        "currency": "USD",
+        "dimensions": "7x7 cm",
+        "material": "Fresh Apple",
+        "inStock": true
+    },
+    {
+        "id": "apple_008",
+        "title": "Ambrosia Apple",
+        "description": "Naturally sweet apple with a crisp texture and delicate aroma",
+        "image": "/images/apples/apple_008.jpg",
+        "category": "premium-apple",
+        "price": 4.59,
+        "currency": "USD",
+        "dimensions": "8x8 cm",
+        "material": "Fresh Apple",
+        "inStock": true
+    },
+    {
+        "id": "apple_009",
+        "title": "Jazz Apple",
+        "description": "Crunchy apple with a vibrant flavor combining sweet and tangy notes",
+        "image": "/images/apples/apple_009.jpg",
+        "category": "crisp-apple",
+        "price": 4.19,
+        "currency": "USD",
+        "dimensions": "7x7 cm",
+        "material": "Fresh Apple",
+        "inStock": true
+    },
+    {
+        "id": "apple_010",
+        "title": "Envy Apple",
+        "description": "Premium red apple with a crisp bite and rich sweet flavor",
+        "image": "/images/apples/apple_010.jpg",
+        "category": "premium-apple",
+        "price": 5.49,
+        "currency": "USD",
+        "dimensions": "8x8 cm",
+        "material": "Fresh Apple",
+        "inStock": false
+    }
+]
+}
