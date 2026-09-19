@@ -14,9 +14,9 @@ const Navbar = () => {
                         <ul
                             tabIndex={-1}
                             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                            <Link href={'/'}><li>Home</li></Link>
-                            <Link href={'all apple'}><li>All Apple</li></Link>
-                            <Link href={'/'}><li>My Profile</li></Link>
+                            <Link href={'/'}>Home</Link>
+                            <Link href={"/all-cards"}>All Apple</Link>
+                            <Link href={'/'}>My Profile</Link>
                         </ul>
                     </div>
                     <a className="btn btn-ghost text-xl">
