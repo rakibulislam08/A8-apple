@@ -1,5 +1,4 @@
-{
-    "products": [
+[
     {
         "id": "apple_001",
         "title": "Red Delicious",
@@ -121,4 +120,3 @@
         "inStock": false
     }
 ]
-}
