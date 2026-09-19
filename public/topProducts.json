@@ -1,0 +1,52 @@
+{
+    "products": [
+        {
+            "id": "apple_001",
+            "title": "Red Delicious",
+            "description": "Sweet and juicy red apple with a classic crisp texture",
+            "image": "/images/apples/apple_001.jpg",
+            "category": "red-apple",
+            "price": 2.99,
+            "currency": "USD",
+            "dimensions": "7x7 cm",
+            "material": "Fresh Apple",
+            "inStock": true
+        },
+        {
+            "id": "apple_002",
+            "title": "Granny Smith",
+            "description": "Crisp green apple with a refreshing and tangy flavor",
+            "image": "/images/apples/apple_002.jpg",
+            "category": "green-apple",
+            "price": 2.49,
+            "currency": "USD",
+            "dimensions": "7x7 cm",
+            "material": "Fresh Apple",
+            "inStock": true
+        },
+        {
+            "id": "apple_003",
+            "title": "Gala Apple",
+            "description": "Mildly sweet apple with a crisp bite and aromatic flavor",
+            "image": "/images/apples/apple_003.jpg",
+            "category": "sweet-apple",
+            "price": 3.29,
+            "currency": "USD",
+            "dimensions": "7x7 cm",
+            "material": "Fresh Apple",
+            "inStock": true
+        },
+        {
+            "id": "apple_004",
+            "title": "Fuji Apple",
+            "description": "Extra-crisp apple with a juicy texture and naturally sweet taste",
+            "image": "/images/apples/apple_004.jpg",
+            "category": "sweet-apple",
+            "price": 3.49,
+            "currency": "USD",
+            "dimensions": "8x8 cm",
+            "material": "Fresh Apple",
+            "inStock": true
+        }
+    ]
+}

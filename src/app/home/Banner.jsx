@@ -14,11 +14,11 @@ const Banner = () => {
                         To The Apple Bazzer</h1>
                         <p className="py-4 text-slate-600">
                             Take a stroll through our website and discover your perfect apple</p>
-                        <button className="btn bg-black text-white">Browse Now</button>
+                        <button className="btn bg-green-500 text-white">Browse Now</button>
                     </div>
                 </div>
             </div>
-            <div className='p-5 bg-rose-300 text-2xl'>
+            <div className='p-4 rounded-md bg-rose-300'>
                 <Marquee>New Arrivals:  Apple Iteams | Weekly Feature: healthy Food | Join the Community...</Marquee>
             </div>
         </div>

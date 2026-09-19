@@ -1,13 +1,17 @@
-import Image from "next/image";
-import Banner from "./home/Banner";
-import AllApples from "./home/AllApples";
 
-export default function Home() {
+
+import Banner from "./home/Banner";
+import TopApples from "./home/TopApples";
+
+
+
+export default async function Home() {
+
   return (
     <div>
-      <Banner/>
-      <AllApples/>
-     
+      <Banner />
+      <TopApples />
+
     </div>
   );
 }

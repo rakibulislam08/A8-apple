@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Header = () => {
+const TopApples = () => {
     return (
         <div>
-            header
+            apples carad
         </div>
     );
 };
 
-export default Header;
+export default TopApples;
