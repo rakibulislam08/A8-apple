@@ -1,12 +1,13 @@
 
 import Image from 'next/image';
+import Link from 'next/link';
 
-const TopApples = async () => {
+const Cards = async () => {
     const res = await fetch('https://a8-apple.vercel.app/data.json');
-    const cards = await res.json();
-    const topCards = cards.slice(0, 4);
+    const allCards = await res.json();
+    // const allCards = allCardsards.slice(0, 4);
 
-    console.log(topCards);
+    // console.log(topCards);
 
     return (
         <div className="container mx-auto">
@@ -14,20 +15,20 @@ const TopApples = async () => {
             <div className=' grid lg:grid-cols-4 gap-3 p-5'>
 
                 {
-                    topCards.map(card => <div key={card.id} >
+                    allCards.map(Cards => <div key={Cards.id} >
                         <div className="card bg-base-100 w-full shadow-sm">
                             <figure>
                                 <img
-                                    src={card.Image}
-                                    alt={card.title}
+                                    src={Cards}
+                                    alt={Cards.title}
 
                                 />
                             </figure>
                             <div className="card-body">
-                                <h2 className="card-title font-bold">{card.title}</h2>
-                                <p className='text-slate-600 font-medium'>{card.description}</p>
+                                <h2 className="card-title font-bold">{Cards.title}</h2>
+                                <p className='text-slate-600 font-medium'>{Cards.description}</p>
                                 <div className="card-actions mt-4">
-                                    <button className="btn bg-green-400 text-white">View Details</button>
+                                    <button className="btn bg-green-400 text-white"><Link href={"details"}>View Details</Link></button>
                                 </div>
                             </div>
                         </div>
@@ -38,4 +39,4 @@ const TopApples = async () => {
     );
 };
 
-export default TopApples;
+export default Cards;

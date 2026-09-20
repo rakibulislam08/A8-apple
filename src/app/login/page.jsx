@@ -1,20 +1,29 @@
+import Link from 'next/link';
 import React from 'react';
 
 const LoginPage = () => {
     return (
-        <div className='container mx-auto flex justify-center mt-5 mb-5 '>
-            <fieldset className="fieldset bg-base-200 border-base-300 rounded-box border p-4">
-                <legend className="fieldset-legend font-bold text-xl">Login Your Account</legend>
+        <div className='container mx-auto flex justify-center items-center min-h-[80vh] mt-5 mb-5 bg-slate-100'>
+            <div className='p-5 rounded-xl bg-white'>
+                <h2 className='font-bold text-3xl text-center mb-4'>Login Your Account</h2>
 
-                <label className="label">Email</label>
-                <input type="email" className="input" placeholder="Email" />
+                <form className='space-y-3'>
+                    <fieldset className="fieldset ">
+                        <legend className="fieldset-legend ">Email</legend>
+                        <input type="email" className="input" placeholder="Email" />
+                    </fieldset>
+                    <fieldset className="fieldset ">
+                        <legend className="fieldset-legend ">Password</legend>
+                        <input type="Password" className="input" placeholder="Type here Password" />
+                    </fieldset>
+                    <button className='btn bg-black text-white w-full'>Login</button>
+                </form>
+            </div>
 
-                <label className="label">Password</label>
-                <input type="password" className="input" placeholder="Password" />
 
-                <button className="btn btn-neutral mt-4">Login</button>
-                <p className=''>If you don,t have account? <span className='text-blue-500'>register</span> </p>
-            </fieldset>
+
+
+
         </div>
     );
 };

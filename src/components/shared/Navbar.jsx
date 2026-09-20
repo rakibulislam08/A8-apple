@@ -14,9 +14,9 @@ const Navbar = () => {
                         <ul
                             tabIndex={-1}
                             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                            <Link href={'/'}>Home</Link>
-                            <Link href={"/all-cards"}>All Apple</Link>
-                            <Link href={'/'}>My Profile</Link>
+                            <Link href={"/"}>Home</Link>
+                            <Link href={"a"}>pple</Link>
+                            <Link href={""}>My Profile</Link>
                         </ul>
                     </div>
                     <a className="btn btn-ghost text-xl">
@@ -25,13 +25,13 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-center  hidden lg:flex">
                     <ul className="menu gap-5 menu-horizontal px-1">
-                        <Link href={'/'}><li>Home</li></Link>
-                        <Link href={'all apple'}><li>All Apple</li></Link>
-                        <Link href={'/'}><li>My Profile</li></Link>
+                       <Link href={"/"}>Home</Link>
+                       <Link href={"all-apple"}>Apples</Link>
+                       <Link href={""}>My Profile</Link>
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn">login</a>
+                <button className="btn"><Link href={"login"}>login</Link></button>
                 </div>
             </div>
         </div>
