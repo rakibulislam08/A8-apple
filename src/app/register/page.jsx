@@ -1,28 +1,56 @@
+'use client'
 import React from 'react';
+import { useForm } from 'react-hook-form';
 
 const RegisterPage = () => {
+    const { register,
+        handleSubmit, formState: { errors }} = useForm()
+
+    const hundleReg = (data) => {
+        const {name, number, email, Password} = data;
+        console.log(name, number,email, Password);
+
+    }
     return (
-        <div>
-            <div className='container mx-auto flex justify-center mt-5 mb-5 '>
-                <fieldset className="fieldset bg-base-200 border-base-300 rounded-box border p-4">
-                    <legend className="fieldset-legend font-bold text-xl">Register Your Account</legend>
 
-                    <label className="label">Your Name</label>
-                    <input type="text" className="input" placeholder="Your Name" />
+        <div className='container mx-auto flex justify-center items-center min-h-[100vh] mt-5 mb-5 bg-slate-100'>
+            <div className='p-5 rounded-xl bg-white'>
+                <h2 className='font-bold text-3xl text-center mb-4'>Register Your Account</h2>
 
-                    <label className="label">Mobile NUmber</label>
-                    <input type="text" className="input" placeholder="number" />
+                <form className='space-y-3 ' onSubmit={handleSubmit(hundleReg)}>
+                    <fieldset className="fieldset ">
+                        <legend className="fieldset-legend ">Name</legend>
+                        <input type="name" className="input" placeholder="Type here name" {...register("name", { required: true })} />
 
-                    <label className="label">Email</label>
-                    <input type="email" className="input" placeholder="Email" />
+                        {errors.name && <span>This field is required</span>}
+                    </fieldset>
 
-                    <label className="label">Password</label>
-                    <input type="password" className="input" placeholder="Password" />
+                    <fieldset className="fieldset ">
+                        <legend className="fieldset-legend ">Mobile Number</legend>
+                        <input type="number" className="input" placeholder="Type here Number" {...register("number", { required: true })} />
 
-                    <button className="btn btn-neutral mt-4">Register</button>
-                </fieldset>
+                        {errors.number && <span>This field is required</span>}
+                    </fieldset>
+
+                    <fieldset className="fieldset ">
+                        <legend className="fieldset-legend ">Email</legend>
+                        <input type="email" className="input" placeholder="Email" {...register("email", { required: true })} />
+
+                        {errors.email && <span>This field is required</span>}
+                    </fieldset>
+
+                    <fieldset className="fieldset ">
+                        <legend className="fieldset-legend ">Password</legend>
+                        <input type="Password" className="input" placeholder="Type here Password" {...register("Password", { required: true })} />
+
+                        {errors.password && <span>This field is required</span>}
+                    </fieldset>
+                    <button className='btn bg-black text-white w-full'>Register</button>
+                </form>
             </div>
+
         </div>
+
     );
 };
 
