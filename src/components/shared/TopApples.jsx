@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 const TopApples = async () => {
-    const res = await fetch('https://a8-apple.vercel.app/data.json');
+    const res = await fetch("https://a8-apple.vercel.app/data.json");
     const allCard = await res.json();
     const topCards = allCard.slice(0, 4);
 

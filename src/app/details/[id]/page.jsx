@@ -19,8 +19,8 @@ const AppleDetailsPage = async ({ params }) => {
     />
     <div>
       <h1 className="text-5xl font-bold">{detail.title}</h1>
-      <p className="mt-2">{detail.category}</p>
-      <p className="py-4">{detail.description}
+      <p className="mt-2 text-2xl">{detail.category}</p>
+      <p className="py-4 text-slate-400">{detail.description}
       </p>
     </div>
   </div>
