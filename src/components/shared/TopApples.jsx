@@ -1,12 +1,9 @@
-
-import Image from 'next/image';
+import Link from "next/link";
 
 const TopApples = async () => {
     const res = await fetch('https://a8-apple.vercel.app/data.json');
-    const cards = await res.json();
-    const topCards = cards.slice(0, 4);
-
-    console.log(topCards);
+    const allCard = await res.json();
+    const topCards = allCard.slice(0, 4);
 
     return (
         <div className="container mx-auto">
@@ -27,7 +24,9 @@ const TopApples = async () => {
                                 <h2 className="card-title font-bold">{card.title}</h2>
                                 <p className='text-slate-600 font-medium'>{card.description}</p>
                                 <div className="card-actions mt-4">
-                                    <button className="btn bg-green-400 text-white">View Details</button>
+                                    <Link href={`/details/${card.id}`}>
+                                        <button className="btn bg-green-400 text-white">View Details</button>
+                                    </Link>
                                 </div>
                             </div>
                         </div>

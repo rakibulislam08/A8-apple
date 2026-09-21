@@ -15,8 +15,8 @@ const Navbar = () => {
                             tabIndex={-1}
                             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
                             <Link href={"/"}>Home</Link>
-                            <Link href={"a"}>pple</Link>
-                            <Link href={""}>My Profile</Link>
+                            <Link href={"all-apple"}>Apple</Link>
+                            <Link href={"/"}>My Profile</Link>
                         </ul>
                     </div>
                     <a className="btn btn-ghost text-xl">
@@ -27,7 +27,7 @@ const Navbar = () => {
                     <ul className="menu gap-5 menu-horizontal px-1">
                        <Link href={"/"}>Home</Link>
                        <Link href={"all-apple"}>Apples</Link>
-                       <Link href={""}>My Profile</Link>
+                       <Link href={"/"}>My Profile</Link>
                     </ul>
                 </div>
                 <div className="navbar-end">

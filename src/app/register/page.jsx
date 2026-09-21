@@ -8,7 +8,7 @@ const RegisterPage = () => {
 
     const hundleReg = (data) => {
         const {name, number, email, Password} = data;
-        console.log(name, number,email, Password);
+        // console.log(name, number,email, Password);
 
     }
     return (
