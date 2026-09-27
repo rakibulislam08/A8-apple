@@ -1,3 +1,8 @@
+import dns from "dns";
+
+dns.setServers(["8.8.8.8", "8.8.4.4"]);
+
+
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 // import { NEXT_ACTION_REVALIDATED_HEADER } from "next/dist/client/components/app-router-headers";
