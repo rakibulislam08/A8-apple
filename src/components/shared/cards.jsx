@@ -2,7 +2,7 @@
 import Link from 'next/link';
 
 const Cards = async () => {
-    const res = await fetch('https://a8-apple.vercel.app/data.json');
+    const res = await fetch('https://a8-apple-fzd7ugfit-rakib-0f14.vercel.app/data.json');
     const allCards = await res.json();
     
 

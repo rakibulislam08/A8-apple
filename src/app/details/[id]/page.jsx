@@ -2,7 +2,7 @@
 
 const AppleDetailsPage = async ({ params }) => {
   const { id } = await params;
-  const res = await fetch('https://a8-apple.vercel.app/data.json');
+  const res = await fetch('https://a8-apple-fzd7ugfit-rakib-0f14.vercel.app/data.json');
   const details = await res.json();
   const detail = details.find(c => c.id == id);
   console.log(detail);
